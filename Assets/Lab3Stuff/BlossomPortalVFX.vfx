@@ -2779,9 +2779,9 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 810, y: 1009}
+  m_UIPosition: {x: 761, y: 1063}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 1
+  m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661615658}
   - {fileID: 8926484042661615659}
@@ -3552,13 +3552,7 @@ MonoBehaviour:
   m_EnumValues: []
   m_ValueFilter: 1
   m_Tooltip: 
-  m_Nodes:
-  - m_Id: 1
-    linkedSlots: []
-    position: {x: 1166.6666, y: 1959.3333}
-    expandedSlots: []
-    expanded: 0
-    supecollapsed: 0
+  m_Nodes: []
 --- !u!114 &8926484042661615729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6207,9 +6201,9 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1174, y: 225}
+  m_UIPosition: {x: 1093, y: 293}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 1
+  m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661616166}
