@@ -31090,6 +31090,7 @@ GameObject:
   - component: {fileID: 363318671}
   - component: {fileID: 363318673}
   - component: {fileID: 363318672}
+  - component: {fileID: 363318674}
   m_Layer: 0
   m_Name: PortalTexture
   m_TagString: Untagged
@@ -31169,6 +31170,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363318670}
   m_Mesh: {fileID: 8691780276856062721, guid: b86413ec69c23c346954df96eaf3935d, type: 3}
+--- !u!114 &363318674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363318670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5d59f739b2399449eeceb607c85dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LODCamera
+  portal_cam: {fileID: 1194759324}
 --- !u!1 &363451209
 GameObject:
   m_ObjectHideFlags: 0
@@ -52002,7 +52016,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621357474}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 30c6a114262e1a04295ef17c5dc47895, type: 2}
   m_CullingMode: 0
@@ -105034,7 +105048,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276096270}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 30c6a114262e1a04295ef17c5dc47895, type: 2}
   m_CullingMode: 0
@@ -141101,6 +141115,7 @@ GameObject:
   - component: {fileID: 1689080379}
   - component: {fileID: 1689080381}
   - component: {fileID: 1689080380}
+  - component: {fileID: 1689080382}
   m_Layer: 0
   m_Name: PortalTexture
   m_TagString: Untagged
@@ -141180,6 +141195,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689080378}
   m_Mesh: {fileID: 8691780276856062721, guid: b86413ec69c23c346954df96eaf3935d, type: 3}
+--- !u!114 &1689080382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689080378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5d59f739b2399449eeceb607c85dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LODCamera
+  portal_cam: {fileID: 764291940}
 --- !u!1001 &1690992089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -149334,7 +149362,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782130640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 30c6a114262e1a04295ef17c5dc47895, type: 2}
   m_CullingMode: 0
@@ -168883,7 +168911,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009766716}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: bb026ba2002b64549ab255dd49579b77, type: 2}
   m_CullingMode: 0
@@ -181052,6 +181080,7 @@ GameObject:
   - component: {fileID: 3284848061978953539}
   - component: {fileID: 8945551587270667284}
   - component: {fileID: 8042094095536376852}
+  - component: {fileID: 8945551587270667285}
   m_Layer: 0
   m_Name: PortalTexture
   m_TagString: Untagged
@@ -181186,6 +181215,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2382613153401141241}
   m_Mesh: {fileID: 8691780276856062721, guid: b86413ec69c23c346954df96eaf3935d, type: 3}
+--- !u!114 &8945551587270667285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2382613153401141241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5d59f739b2399449eeceb607c85dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LODCamera
+  portal_cam: {fileID: 1888568564}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
